@@ -4,7 +4,7 @@ body {
 }
 
 .parallax-index {
-    background:url('/image/bg\ 3-blur.jfif');
+    background:url('image/bg\ 3-blur.jfif');
     min-height: 100%;
     background-attachment: fixed;
     background-position: center;
@@ -155,7 +155,7 @@ body {
 /*  SKILLS */
 
 #parallax-skills {
-    background:url('/image/trybg.jpg');
+    background:url('image/trybg.jpg');
     min-height: 400px;
     background-attachment: fixed;
     background-position: top, center;
@@ -249,7 +249,7 @@ body {
 /*   CONTACT   */
 
 #parallax-contact {
-    background: url('/image/bg4.jfif');
+    background: url('image/bg4.jfif');
     min-height: 675px;
     background-attachment: fixed;
     background-position: top, center;
