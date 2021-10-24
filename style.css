@@ -4,7 +4,7 @@ body {
 }
 
 .parallax-index {
-    background:url('image/bg\ 3-blur.jfif');
+    background:url('./image/bg\ 3-blur.jfif');
     min-height: 100%;
     background-attachment: fixed;
     background-position: center;
