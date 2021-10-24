@@ -1,0 +1,304 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;          
+}
+
+.parallax-index {
+    background:url('/image/bg\ 3-blur.jfif');
+    min-height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+/*  HOMEPAGE   */
+
+#navbar {
+    background-color: rgba( 0, 0, 0, .5);
+    color: #616a72;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    
+}
+
+#navbar li {
+    list-style: none;
+    display: inline-block;
+    position: relative; 
+}
+
+#navbar h1 {
+    color: #f1f1f1;
+    display: inline-block;
+    margin-right: 170px;
+}
+
+#navbar h1 div{
+    border-right: 1px solid #f1f1f1;
+    margin: auto;
+    width: 120%;    
+}
+
+#navbar a {
+    text-decoration: none;
+    font-size: 15px;
+    color: #f1f1f1;
+    margin-left: 80px;
+    letter-spacing: .15em;
+    position: relative;
+    padding-bottom: 15px;
+}
+
+
+
+#navbar a::after {  
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: #fff;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+
+#navbar a:hover:after { 
+  width: 100%; 
+  left: 0; 
+}
+@media screen and (max-height: 300px) {
+	ul {
+		margin-top: 40px;
+	}
+}
+
+
+
+/*  HOME  */
+
+#home h1 {
+    font-weight: 900;
+    color: #f1f1f1;
+    font-size: 80px;
+    margin-top: 230px;
+    text-align: center;
+}
+
+#index-text {
+    font-family: 'Italianno', cursive;
+    color: #f1f1f1;
+    font-size: 70px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+#icons{
+    display: inline-block;
+    margin-left: 625px;
+    margin-bottom: 50px;
+}
+
+#icons img{
+    height: 50px;
+    margin: 10px;
+}
+
+
+
+/*  ABOUT ME   */
+
+#about-container {
+    /*background-color: #7f8c8d;
+    background-image: linear-gradient(315deg, #7f8c8d, #000000);*/
+    background-color: #f1f1f1;
+    width: 100%;
+    height: 750px;
+    color: #404040;
+}
+
+#my-picture img{
+    margin-left: 200px;
+    margin-top: 120px;
+    height: 550px;
+    border-radius: 15px 50px 30px;
+    float: left;
+}
+#about-container h1 {
+    float: right;
+    margin-right: 240px;
+    margin-top: 140px;
+    font-size: 40px;
+}
+
+#details p{
+    float: right;
+    margin-right: 270px;
+    margin-top: 40px;
+    line-height: 55px;
+    text-align: center;
+    font-size: 17px;
+    color: #1e2023;
+}
+
+#details h3 {
+    float: right;
+    font-style: italic;
+    margin-right: 240px;
+    margin-top: 70px;
+}
+
+/*  SKILLS */
+
+#parallax-skills {
+    background:url('/image/trybg.jpg');
+    min-height: 400px;
+    background-attachment: fixed;
+    background-position: top, center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+#skills-container {
+    background-color: #404040;
+    border-radius: 0px 50px 50px 0px;
+    width: 55%;
+    height: 590px;
+    margin-top: 120px;
+    margin-bottom: 150px;
+    color: #d0d4d7;
+}
+
+#skills-container h1{
+    padding-top: 45px;
+    font-size: 35px;
+    margin-left: 20px;
+}
+
+
+#skills-container h2{
+    text-align: center;
+    font-size: 30px;
+}
+
+#skills-icon {
+    display: inline-block;
+    margin-left: 110px;
+}
+
+#skills img {
+    height: 100px;
+    margin-bottom: 30px;
+    margin-left: 70px;
+}
+
+#skills img:hover{
+    height: 150px;
+}
+
+/*   PROJECTS    */
+#project {
+    background-color: #f1f1f1;
+    width: 100%;
+    height: 750px;
+    color: #404040;
+    overflow: hidden;
+}
+
+#project h1 {
+    text-align: right;
+    margin-right: 250px;
+    font-size: 35px;
+    font-style: oblique;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#project-list-container {
+    background-color: #404040;
+    width: 1250px;
+    height: 560px;
+    color: #f1f1f1;
+    margin-left: 120px;
+}
+
+#project h3 {
+    float: right;
+    text-align: right;
+    font-size: 30px;
+    margin-right: 150px;
+    margin-top: 200px;
+}
+
+#To-do-list {
+    margin-left: 150px;
+    padding-top: 30px;
+}
+
+#To-do-list img{
+    float: left;
+    height: 500px;
+    margin-right: 70px;
+}
+
+/*   CONTACT   */
+
+#parallax-contact {
+    background: url('/image/bg4.jfif');
+    min-height: 675px;
+    background-attachment: fixed;
+    background-position: top, center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+#contact-container {
+    background-color: #838383;
+    color: #f1f1f1;
+    width: 500px;
+    height: 400px;
+    margin-left: 500px;
+    margin-top: 150px;
+    margin-bottom: 90px;
+}
+
+#contact-container h2{
+    text-align: center;
+    padding-top: 30px;
+    font-size: 40px; 
+}
+
+#contact-container li {
+    list-style: none;
+    line-height: 60px;
+}
+
+#contact-icons {
+    float: left;
+}
+
+#contact-icons img {
+    height: 30px;
+    margin-right: 20px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    margin-left: 110px;
+    display: block;
+}
+
+#main-footer{
+    position: relative;
+    bottom: 4px;
+    background: transparent;
+    background-color: #f1f1f1;
+    color: #404040;
+    font-size: 12px;
+    text-align: center;
+    padding: 5px;
+}
