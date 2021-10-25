@@ -1,4 +1,4 @@
-# Personal-website
+# Personal-website-screenshot
 
 <p>Home Page</p>
 <img src="./website-screenshot/ homepage.jpg">
