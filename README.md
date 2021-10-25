@@ -1,7 +1,7 @@
 # Personal-website
 
 <p>Home Page</p>
-<img src="./website\ screenshot/ homepage.jpg">
+<img src="./website screenshot/ homepage.jpg">
 
 <p>About Page</p>
 <img src="./website\ screenshot/ about.jpg">
