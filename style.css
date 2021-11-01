@@ -490,6 +490,8 @@ body {
     }
 }
 
+/*    Ken Personal Phone         */
+
 @media screen and (max-width:484px) {
 
     #navbar-brand {
@@ -511,6 +513,7 @@ body {
     }
     #index-text {
         font-size: 2rem;
+        font-weight: 300;
     }
 
     /*------> About Page <------*/
