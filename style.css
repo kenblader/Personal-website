@@ -536,3 +536,16 @@ body {
     }
 
 }
+
+@media screen and (max-width:391px) {
+
+    /*------> Contact Page <------*/
+    .row ul li {
+        font-size: 8px;
+    }
+
+    .img-position{
+        width: 35%;
+    }
+
+}
