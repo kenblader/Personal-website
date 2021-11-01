@@ -472,7 +472,7 @@ body {
     }
 
     .skills-icon .column img{
-        width: 9rem;
+        width: 7rem;
     }
 }
 
@@ -490,9 +490,49 @@ body {
     }
 }
 
-@media screen and (max-width:471px) {
+@media screen and (max-width:484px) {
+
+    #navbar-brand {
+        font-size: 23px;
+        font-weight: 800;
+        padding-right: 0;
+    }
+
+    #navbar-nav a {
+        font-size: .5rem;
+        padding: 0.9rem .5rem;
+    }
+
+    /*------> Home Page <------*/
+    #home h1 {
+        font-size: 3rem;
+        line-height: 5rem;
+        padding: 2rem;
+    }
+    #index-text {
+        font-size: 1rem;
+        font-weight: 600;
+        text-align: center;
+        letter-spacing: 3px;
+    }
+
+    /*------> About Page <------*/
+    .about-left h3 {
+        font-size: 50px;
+        padding: 2.5rem 0 3rem 0;
+    }
+
+    #details{
+        font-size: 16px;
+    }
+
     /*------> Contact Page <------*/
     .row ul li {
         font-size: 9px;
     }
+
+    .img-position{
+        width: 15%;
+    }
+
 }
